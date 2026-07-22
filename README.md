@@ -76,7 +76,6 @@
 
 ### 🎓 Formation
 
-- **Double diplôme DevOps/Cloud** — Polytech Montpellier × ENSA Marrakech *(à venir, 2026-2028)*
 - **Diplôme d'Ingénieur en Réseaux, Systèmes & Services Programmables** — ENSA Marrakech *(2024 - en cours)*
 - **Classes préparatoires** — ENSA Marrakech *(2022-2024)*
 
