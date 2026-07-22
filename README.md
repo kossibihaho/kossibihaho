@@ -83,8 +83,4 @@
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kossibihaho&show_icons=true&theme=default&hide_border=true" alt="Kossi's GitHub Stats" />
-</p>
-
 <p align="center"><i>📫 N'hésitez pas à me contacter pour toute opportunité en DevOps, Cloud ou Réseaux !</i></p>
