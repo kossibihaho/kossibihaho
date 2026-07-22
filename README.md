@@ -1,11 +1,7 @@
 <h1 align="center">Salut, je suis Kossi BIHAHO 👋</h1>
 
-<h3 align="center">Élève Ingénieur en Réseaux, Systèmes & Services Programmables 🇹🇬 basé à Marrakech 🇲🇦</h3>
-
 <p align="center">
-  🔭 En recherche d'une <b>alternance DevOps / Cloud</b> (Sept. 2026 — double diplôme ENSA Marrakech x Polytech Montpellier)<br/>
-  🌱 Passionné par le <b>DevOps</b>, la <b>conteneurisation</b> et le <b>Cloud Computing</b><br/>
-  🥁 En dehors du code : batteur, lecteur, fitness et cuisine
+  Élève ingénieur en Réseaux, Systèmes et Services Programmables à l'École Nationale des Sciences Appliquées de Marrakech et passionné par le DevOps et le Cloud Computing, je suis motivé, orienté résultats; prêt à appliquer et développer davantage mes compétences dans une équipe innovante.
 </p>
 
 <p align="center">
