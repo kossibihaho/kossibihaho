@@ -63,14 +63,22 @@
 
 ### 🚀 Projets marquants
 
-- 🐳 **[Site_apprendre_musique](https://github.com/kossibihaho/Site_apprendre_musique)** — Site web (HTML/CSS/JS) conteneurisé et déployé avec **Docker & Docker Compose**
-- ⚙️ **[CI-CD_deploy](https://github.com/kossibihaho/CI-CD_deploy)** — Déploiement de deux applications avec une logique **CI/CD**
-- ☁️ **Déploiement Docker sur AWS EC2** — Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub
-- 🌐 **Simulation réseau d'entreprise (Cisco Packet Tracer)** — Architecture multi-départements : VLANs, routage inter-VLAN, OSPF, DHCP, PAT, ACL
-- 🔐 **Sécurisation des accès avec TACACS+** — Implémentation du modèle AAA avec secours local en cas de panne serveur
-- 🖥️ **Centralisation via Active Directory** — Gestion des utilisateurs, machines et droits d'accès via un contrôleur de domaine (OU, GPO, DHCP)
-- 🤖 **Détection de spam par apprentissage supervisé (Python)** — Prétraitement de données, comparaison de modèles, interface de visualisation
-- 🐧 **Déploiement d'application sur EC2 (Linux/Nginx)** — Lancement, configuration Nginx et mise en production
+- 🐳 **[Site_apprendre_musique](https://github.com/kossibihaho/Site_apprendre_musique)**
+      Site web (HTML/CSS/JS) conteneurisé et déployé avec **Docker & Docker Compose**
+- ⚙️ **[CI-CD_deploy](https://github.com/kossibihaho/CI-CD_deploy)**
+      Déploiement de deux applications avec une logique **CI/CD**
+- ☁️ **Déploiement Docker sur AWS EC2**
+      Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub
+- 🌐 **Simulation réseau d'entreprise (Cisco Packet Tracer)**
+      Architecture multi-départements : VLANs, routage inter-VLAN, OSPF, DHCP, PAT, ACL
+- 🔐 **Sécurisation des accès avec TACACS+**
+      Implémentation du modèle AAA avec secours local en cas de panne serveur
+- 🖥️ **Centralisation via Active Directory**
+      Gestion des utilisateurs, machines et droits d'accès via un contrôleur de domaine (OU, GPO, DHCP)
+- 🤖 **Détection de spam par apprentissage supervisé (Python)**
+      Prétraitement de données, comparaison de modèles, interface de visualisation
+- 🐧 **Déploiement d'application sur EC2 (Linux/Nginx)**
+      Lancement, configuration Nginx et mise en production
 
 ---
 
