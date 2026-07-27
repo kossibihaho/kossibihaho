@@ -1,7 +1,7 @@
 <h1 align="center">Salut, je suis Kossi BIHAHO 👋</h1>
 
 <p align="center">
-  Élève ingénieur en Réseaux, Systèmes et Services Programmables à l'École Nationale des Sciences Appliquées de Marrakech et passionné par le DevOps et le Cloud Computing, je suis motivé, orienté résultats; prêt à appliquer et développer davantage mes compétences dans une équipe innovante.
+  Élève ingénieur en Réseaux, Systèmes et Services Programmables à l'École Nationale des Sciences Appliquées de Marrakech et passionné par le DevOps et le Cloud Computing, je suis motivé, orienté processus & résultats; prêt à appliquer et développer davantage mes compétences dans une équipe innovante.
 </p>
 
 <p align="center">
