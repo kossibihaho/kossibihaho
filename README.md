@@ -64,20 +64,20 @@
 ### 🚀 Projets marquants
 
 - 🐳 **[Site_apprendre_musique](https://github.com/kossibihaho/Site_apprendre_musique)**
-      - Site web (HTML/CSS/JS) conteneurisé et déployé avec **Docker & Docker Compose**
+      - Site web (HTML/CSS/JS) conteneurisé et déployé avec **Docker & Docker Compose**...
 - ⚙️ **[CI-CD_deploy](https://github.com/kossibihaho/CI-CD_deploy)**
-      - Déploiement de 2 applications conteneurisées, accessibles en HTTPS via un reverse proxy, avec un pipeline CI/CD complet et un système de déploiement zero-downtime sur un même serveur.
-- Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub
+      - Déploiement de 2 applications conteneurisées, accessibles en HTTPS via un reverse proxy, avec un pipeline CI/CD complet et un système de déploiement zero-downtime sur un même serveur...
+- Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub...
 - 🌐 **Simulation réseau d'entreprise (Cisco Packet Tracer)**
       - Architecture multi-départements : VLANs, routage inter-VLAN, OSPF, DHCP, PAT, ACL
 - 🔐 **Sécurisation des accès avec TACACS+**
-      - Implémentation du modèle AAA avec secours local en cas de panne serveur
+      - Implémentation du modèle AAA avec secours local en cas de panne serveur...
 - 🖥️ **Centralisation via Active Directory**
       - Gestion des utilisateurs, machines et droits d'accès via un contrôleur de domaine (OU, GPO, DHCP)
 - 🤖 **Détection de spam par apprentissage supervisé (Python)**
-      - Prétraitement de données, comparaison de modèles, interface de visualisation
+      - Prétraitement de données, comparaison de modèles, interface de visualisation...
 - 🐧 **Déploiement d'application sur EC2 (Linux/Nginx)**
-      - Lancement, configuration Nginx et mise en production
+      - Lancement, configuration Nginx et mise en production...
 
 ---
 
