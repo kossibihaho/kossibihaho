@@ -63,21 +63,102 @@
 
 ### 🚀 Projets marquants
 
-- 🐳 **[Site_apprendre_musique](https://github.com/kossibihaho/Site_apprendre_musique)**
-      - Site web (HTML/CSS/JS) conteneurisé et déployé avec **Docker & Docker Compose**...
-- ⚙️ **[CI-CD_deploy](https://github.com/kossibihaho/CI-CD_deploy)**
-      - Déploiement de 2 applications conteneurisées, accessibles en HTTPS via un reverse proxy, avec un pipeline CI/CD complet et un système de déploiement zero-downtime sur un même serveur...
-- Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub...
-- 🌐 **Simulation réseau d'entreprise (Cisco Packet Tracer)**
-      - Architecture multi-départements : VLANs, routage inter-VLAN, OSPF, DHCP, PAT, ACL
-- 🔐 **Sécurisation des accès avec TACACS+**
-      - Implémentation du modèle AAA avec secours local en cas de panne serveur...
-- 🖥️ **Centralisation via Active Directory**
-      - Gestion des utilisateurs, machines et droits d'accès via un contrôleur de domaine (OU, GPO, DHCP)
-- 🤖 **Détection de spam par apprentissage supervisé (Python)**
-      - Prétraitement de données, comparaison de modèles, interface de visualisation...
-- 🐧 **Déploiement d'application sur EC2 (Linux/Nginx)**
-      - Lancement, configuration Nginx et mise en production...
+#### ☁️ DevOps & Cloud
+
+<table>
+<tr>
+<td width="50%">
+
+**🐳 [Site_apprendre_musique](https://github.com/kossibihaho/Site_apprendre_musique)**
+
+Site web (HTML/CSS/JS) conteneurisé et déployé avec Docker & Docker Compose.
+
+`Docker` `Docker Compose` `HTML/CSS/JS`
+
+</td>
+<td width="50%">
+
+**⚙️ [CI-CD_deploy](https://github.com/kossibihaho/CI-CD_deploy)**
+
+Déploiement de 2 apps conteneurisées, accessibles en HTTPS via reverse proxy, avec pipeline CI/CD complet et déploiement **zero-downtime** sur un même serveur.
+
+`CI/CD` `Docker` `Reverse Proxy` `HTTPS`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**☁️ Déploiement Docker sur AWS EC2**
+
+Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub.
+
+`AWS EC2` `Docker` `Git`
+
+</td>
+<td width="50%">
+
+**🐧 Déploiement d'application sur EC2 (Linux/Nginx)**
+
+Lancement d'instance, configuration Nginx et mise en production.
+
+`AWS EC2` `Linux` `Nginx`
+
+</td>
+</tr>
+</table>
+
+#### 🌐 Réseaux & Sécurité
+
+<table>
+<tr>
+<td width="50%">
+
+**🌐 Simulation réseau d'entreprise (Cisco Packet Tracer)**
+
+Architecture multi-départements : VLANs, routage inter-VLAN, OSPF, DHCP, PAT, ACL.
+
+`Cisco` `VLAN` `OSPF` `ACL`
+
+</td>
+<td width="50%">
+
+**🔐 Sécurisation des accès avec TACACS+**
+
+Implémentation du modèle AAA avec secours local en cas de panne serveur.
+
+`TACACS+` `AAA` `Sécurité réseau`
+
+</td>
+</tr>
+<tr>
+<td width="50%" colspan="2">
+
+**🖥️ Centralisation via Active Directory**
+
+Gestion des utilisateurs, machines et droits d'accès via un contrôleur de domaine (OU, GPO, DHCP).
+
+`Active Directory` `GPO` `DHCP`
+
+</td>
+</tr>
+</table>
+
+#### 🤖 Data & Programmation
+
+<table>
+<tr>
+<td width="100%">
+
+**🤖 Détection de spam par apprentissage supervisé (Python)**
+
+Prétraitement de données, comparaison de modèles de prédiction, choix du meilleur modèle, interface de visualisation.
+
+`Python` `Machine Learning` `Data Preprocessing`
+
+</td>
+</tr>
+</table>
 
 ---
 
