@@ -35,10 +35,12 @@
   <img src="https://img.shields.io/badge/Active%20Directory-00A4EF?style=flat&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/pfSense-212121?style=flat&logo=pfsense&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/CI%2FCD-blue?style=flat&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus%20%7C%20Grafana-E6522C?style=flat&logo=prometheus&logoColor=white" />
 </p>
 
 **Programmation & Sécurité**
@@ -62,6 +64,57 @@
 ---
 
 ### 🚀 Projets marquants
+
+#### 🏆 Projet phare — [BihahoTech, infrastructure d'entreprise](https://github.com/kossibihaho/bihahotech-enterprise-infrastructure) (lab complet)
+
+Simulation complète d'une infrastructure informatique d'entreprise fictive, construite de zéro dans VirtualBox : réseau, Active Directory, services applicatifs, supervision, sécurité, sauvegardes et VPN, sur le domaine `bihahotech.local`.
+
+```mermaid
+flowchart TD
+    INET([Internet])
+    PFS[PFSENSE01<br/>Pare-feu / Routeur / VPN]
+    LAN{{LAN interne<br/>192.168.10.0/24}}
+
+    DC01[DC01<br/>AD DS · DNS · DHCP]
+    SRV[SRV-LINUX01<br/>Docker · Nginx]
+    MON[MONITOR01<br/>Prometheus · Grafana]
+    WIN[WIN11-CLIENT01]
+    UBU[UBUNTU-CLIENT01]
+
+    NC[Nextcloud]
+    WK[Wiki.js]
+    PT[Portainer]
+
+    INET <--> PFS
+    PFS <--> LAN
+    LAN --- DC01
+    LAN --- SRV
+    LAN --- MON
+    LAN --- WIN
+    LAN --- UBU
+
+    SRV --> NC
+    SRV --> WK
+    SRV --> PT
+
+    MON -.scrape.-> DC01
+    MON -.scrape.-> SRV
+```
+
+| Domaine | Réalisations |
+|---|---|
+| 🔥 Réseau & sécurité | pfSense (pare-feu allow-list, NAT, routage), VPN OpenVPN avec PKI interne, HTTPS |
+| 🗂️ Annuaire | Active Directory DS, DNS, DHCP, GPO sur Windows Server 2025 |
+| 🐳 Applicatif | Nextcloud, Wiki.js, Portainer déployés via Docker + reverse proxy Nginx |
+| 📊 Supervision | Prometheus, Grafana, Alertmanager, node_exporter, windows_exporter |
+| 💾 Sauvegarde | BorgBackup (chiffré, dédupliqué) + Rsync, restauration testée |
+| 📝 Process | 10 phases planifiées et documentées, du besoin à la documentation finale |
+
+`pfSense` `Active Directory` `Docker` `Nginx` `Prometheus` `Grafana` `OpenVPN` `BorgBackup` `Windows Server`
+
+> 💡 Le projet documente aussi honnêtement ses limites assumées (SPOF, certificats auto-signés, etc.) — une démarche d'ingénieur plutôt qu'une vitrine.
+
+---
 
 #### ☁️ DevOps & Cloud
 
