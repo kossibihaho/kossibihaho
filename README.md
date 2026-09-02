@@ -65,56 +65,21 @@
 
 ### 🚀 Projets marquants
 
-#### 🏆 Projet phare — [BihahoTech, infrastructure d'entreprise](https://github.com/kossibihaho/bihahotech-enterprise-infrastructure) (lab complet)
+#### 🏗️ Infrastructure & Administration système
 
-Simulation complète d'une infrastructure informatique d'entreprise fictive, construite de zéro dans VirtualBox : réseau, Active Directory, services applicatifs, supervision, sécurité, sauvegardes et VPN, sur le domaine `bihahotech.local`.
+<table>
+<tr>
+<td width="100%">
 
-```mermaid
-flowchart TD
-    INET([Internet])
-    PFS[PFSENSE01<br/>Pare-feu / Routeur / VPN]
-    LAN{{LAN interne<br/>192.168.10.0/24}}
+**🏢 [BihahoTech — Infrastructure d'entreprise](https://github.com/kossibihaho/bihahotech-enterprise-infrastructure)**
 
-    DC01[DC01<br/>AD DS · DNS · DHCP]
-    SRV[SRV-LINUX01<br/>Docker · Nginx]
-    MON[MONITOR01<br/>Prometheus · Grafana]
-    WIN[WIN11-CLIENT01]
-    UBU[UBUNTU-CLIENT01]
+Simulation complète d'une infrastructure d'entreprise dans VirtualBox : pare-feu pfSense avec VPN, Active Directory (DNS/DHCP/GPO), services applicatifs conteneurisés (Nextcloud, Wiki.js, Portainer) derrière un reverse proxy Nginx, supervision Prometheus/Grafana et sauvegardes chiffrées BorgBackup.
 
-    NC[Nextcloud]
-    WK[Wiki.js]
-    PT[Portainer]
+`pfSense` `Active Directory` `Docker` `Nginx` `Prometheus` `Grafana` `OpenVPN` `BorgBackup`
 
-    INET <--> PFS
-    PFS <--> LAN
-    LAN --- DC01
-    LAN --- SRV
-    LAN --- MON
-    LAN --- WIN
-    LAN --- UBU
-
-    SRV --> NC
-    SRV --> WK
-    SRV --> PT
-
-    MON -.scrape.-> DC01
-    MON -.scrape.-> SRV
-```
-
-| Domaine | Réalisations |
-|---|---|
-| 🔥 Réseau & sécurité | pfSense (pare-feu allow-list, NAT, routage), VPN OpenVPN avec PKI interne, HTTPS |
-| 🗂️ Annuaire | Active Directory DS, DNS, DHCP, GPO sur Windows Server 2025 |
-| 🐳 Applicatif | Nextcloud, Wiki.js, Portainer déployés via Docker + reverse proxy Nginx |
-| 📊 Supervision | Prometheus, Grafana, Alertmanager, node_exporter, windows_exporter |
-| 💾 Sauvegarde | BorgBackup (chiffré, dédupliqué) + Rsync, restauration testée |
-| 📝 Process | 10 phases planifiées et documentées, du besoin à la documentation finale |
-
-`pfSense` `Active Directory` `Docker` `Nginx` `Prometheus` `Grafana` `OpenVPN` `BorgBackup` `Windows Server`
-
-> 💡 Le projet documente aussi honnêtement ses limites assumées (SPOF, certificats auto-signés, etc.) — une démarche d'ingénieur plutôt qu'une vitrine.
-
----
+</td>
+</tr>
+</table>
 
 #### ☁️ DevOps & Cloud
 
