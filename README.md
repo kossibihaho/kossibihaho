@@ -87,11 +87,11 @@ Simulation complète d'une infrastructure d'entreprise dans VirtualBox : pare-fe
 <tr>
 <td width="50%">
 
-**🐳 [Site_apprendre_musique](https://github.com/kossibihaho/Site_apprendre_musique)**
+**🐳 [Déploiement Docker sur AWS EC2](https://github.com/kossibihaho/Site_apprendre_musique)**
 
-Site web (HTML/CSS/JS) conteneurisé et déployé avec Docker & Docker Compose.
+Site web (HTML/CSS/JS) conteneurisé et déployé avec Docker & Docker Compose et versionné avec Git/GitHub.
 
-`Docker` `Docker Compose` `HTML/CSS/JS`
+`Docker` `Docker Compose` `HTML/CSS/JS` `AWS EC2` `Git` `GitHub`
 
 </td>
 <td width="50%">
@@ -107,14 +107,6 @@ Déploiement de 2 apps conteneurisées, accessibles en HTTPS via reverse proxy, 
 <tr>
 <td width="50%">
 
-**☁️ Déploiement Docker sur AWS EC2**
-
-Dockerisation et déploiement d'une application sur une instance EC2, versionné avec Git/GitHub.
-
-`AWS EC2` `Docker` `Git`
-
-</td>
-<td width="50%">
 
 **🐧 Déploiement d'application sur EC2 (Linux/Nginx)**
 
