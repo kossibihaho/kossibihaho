@@ -177,7 +177,11 @@ Prétraitement de données, comparaison de modèles de prédiction, choix du mei
 - **Diplôme d'Ingénieur en Réseaux, Systèmes & Services Programmables** — ENSA Marrakech *(2024 - en cours)*
 - **Classes préparatoires** — ENSA Marrakech *(2022-2024)*
 
-**Certifications** : Technicien Réseau (Cisco Networking Academy) · Introduction à l'IoT (Cisco) · Les bases d'AWS (KodeCloud)
+**Certifications** : 
+- AWS Certified Cloud Practitioner (en préparation)
+- Technicien Réseau (Cisco Networking Academy)
+- Introduction à l'IoT (Cisco) 
+- Les bases d'AWS (KodeCloud)
 
 ---
 
