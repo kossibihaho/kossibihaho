@@ -134,7 +134,7 @@ Architecture multi-départements : VLANs, routage inter-VLAN, OSPF, DHCP, PAT, A
 <td width="50%">
 
 
-**🔐 [Sécurisation des accès avec TACACS+](https://github.com/kossibihaho/CI-CD_deploy)**
+**🔐 [Sécurisation des accès avec TACACS+](https://github.com/kossibihaho/Implementation_du_AAA)**
 
 Implémentation du modèle AAA avec secours local en cas de panne serveur.
 
