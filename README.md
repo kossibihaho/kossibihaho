@@ -186,4 +186,4 @@ Prétraitement de données, comparaison de modèles de prédiction, choix du mei
 
 ---
 
-<p align="center"><i>📫 N'hésitez pas à me contacter pour toute opportunité en DevOps, Cloud ou Réseaux !</i></p>
+<p align="center"><i>📫 N'hésitez pas à me contacter pour toute opportunité en DevOps, Cloud, Systèmes, ou Réseaux !</i></p>
